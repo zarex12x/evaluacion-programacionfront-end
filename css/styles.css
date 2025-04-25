@@ -3,10 +3,44 @@
     src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
 }
 
+
+
 body {
     font-family: segoi-ui;
 }
 
 img {
     max-width: 100%;
+}
+/*header*/
+header{
+    background-image: url(img/site-header-background.jpeg);
+    background-size: cover;
+    background-position: center center
+
+}
+.contenedor{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.letra{
+    color: #053477;
+    font-size: 5,8rem;
+    
+}
+/*.logo-img{
+    width: 100%;
+    height: 100%;
+}*/
+.equipo32{
+    color: #DEE9F7;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+   
+.imagenes-footer{
+    
 }
