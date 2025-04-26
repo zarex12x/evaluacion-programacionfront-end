@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 
@@ -46,89 +47,125 @@
     <!--Fin Header-->
 
     <!--Inicio Main-->
-    <h2>
-        Nuestro
-    </h2>
-    <h2>
-        Trabajo
-    </h2>
+    <main>
+        <div class="contenedor-main-trabajo">
+            <div class="titulo-trabajo">
+                <h2>
+                    Nuestro
+                </h2>
+                <h2>
+                    Trabajo
+                </h2>
+            </div>
+            <div class="contenedor-trabajo">
+                <div class="trabajos">
+                    <div class="seccion1">
+                     
+                        <img src="img/Envios.png" alt="Imagen envios " class="texto-img">
+                        <div class = "trabajo-texto">
+                            <h3>Envios a domicilio</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ex quisquam aliquam
+                                tenetur vitae? Soluta.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-trabajo">
+                    <div class="seccion1">
+                        <img src="img/Pedidos.svg" alt="Imagen pedidos" class="texto-img">
+                        <div class = "trabajo-texto">
+                            <h3>Encomiendas</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam maxime
+                                possimus, quod facilis illo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trabajos">
+                    <div  class="seccion1">
+                        <img src="img/Economia.svg" alt="Imagen economia" class="texto-img">
+                        <div class = "trabajo-texto">
 
-    <img src="img/Envios.png" alt="Imagen envios">
-
-    <h3>Envios a domicilio</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ex quisquam aliquam
-        tenetur vitae? Soluta.
-    </p>
-
-    <img src="img/Pedidos.svg" alt="Imagen pedidos">
-
-    <h3>Encomiendas</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam maxime
-        possimus, quod facilis illo.
-    </p>
-
-    <img src="img/Economia.svg" alt="Imagen economia">
-
-    <h3>Economia</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, vel? Quam, voluptate
-        tempora. Sit, molestiae.
-    </p>
-
-    <h2>Nuestro equipo</h2>
-
-    <img src="img/avatar.png" alt="Imagen Equipo">
-    <h3>Equipo persona I</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ex quisquam aliquam tenetur
-        vitae? Soluta.
-    </p>
-
-    <img src="img/avatar2.png" alt="Imagen Equipo">
-    <h3>Equipo persona II</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam maxime possimus, quod
-        facilis.
-    </p>
-
-    <img src="img/avatar3.png" alt="Imagen Equipo">
-    <h3>Equipo persona III</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, vel? Quam, voluptate tempora. Sit,
-        molestiae.
-    </p>
-
-    <h2>Contacto</h2>
-    <ul>
-        <li>800 20 20 20 </li>
-        <li>+56 2 88888888</li>
-        <li>informaciones@correo.cl</li>
-        <li>Casa Central | nuestra Sede Av. Calle 10, Calama - Chile</li>
-    </ul>
-
-    <form>
-        <legend>Informacion personal</legend>
-        <div>
-            <label>Correo</label>
-            <input type="text" placeholder="Ejemplo@mail.cl">
+                            <h3>Economia</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, vel? Quam, voluptate
+                                tempora. Sit, molestiae.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <label>Nombre:</label>
-            <input type="text">
+
+        <h2>Nuestro equipo</h2>
+
+        <img src="img/avatar.png" alt="Imagen Equipo">
+        <h3>Equipo persona I</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ex quisquam aliquam tenetur
+            vitae? Soluta.
+        </p>
+
+        <img src="img/avatar2.png" alt="Imagen Equipo">
+        <h3>Equipo persona II</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam maxime possimus, quod
+            facilis.
+        </p>
+
+        <img src="img/avatar3.png" alt="Imagen Equipo">
+        <h3>Equipo persona III</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, vel? Quam, voluptate tempora. Sit,
+            molestiae.
+        </p>
+        <div class="contenedor-contacto">
+            <div class="parte-lateral">
+                <h2 class="titulo-contacto">Contacto</h2>
+                <ul>
+                    <li>800 20 20 20 </li>
+                    <li>+56 2 88888888</li>
+                    <li>informaciones@correo.cl</li>
+                    <li>Casa Central | nuestra Sede Av. Calle 10, Calama - Chile</li>
+                </ul>
+            </div>
+            <div class="formulario-contacto">
+                <form>
+                    <legend class="informacion-personal">Informacion personal</legend>
+                    <div>
+                        <div>
+                            <label>Correo</label>
+                        </div>
+                        <input type="text" placeholder="Ejemplo@mail.cl" class="inputs">
+                    </div>
+                    <div>
+                        <div>
+                         <label>Nombre:</label>
+                        </div>
+                        <input type="text" placeholder="nombre" class="inputs">
+                        
+                    </div>
+                    <div>
+                        <div>
+                          <label>Ciudad:</label>
+                        </div>
+                        <select>
+                            <option selected>--Seleccione--</option>
+                            <option value="1">Arica</option>
+                            <option value="2">Calama</option>
+                            <option value="3">Santiago</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Mensaje</label>
+                        </div>
+                        <textarea rows="3"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="envio">
+                    </div>
+                </form>
+            </div>
         </div>
-        <div>
-            <label>Ciudad:</label>
-            <select>
-                <option selected>--Seleccione--</option>
-                <option value="1">Arica</option>
-                <option value="2">Calama</option>
-                <option value="3">Santiago</option>
-            </select>
-        </div>
-        <div>
-            <label>Mensaje</label>
-            <textarea rows="3"></textarea>
-        </div>
-        <div>
-            <input type="submit">
-        </div>
-    </form>
+
+    </main>
     <!--Fin Main-->
 
     <!--Inicio Footer-->
